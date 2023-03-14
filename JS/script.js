@@ -32,16 +32,14 @@
         1000
       );
     });
-    /*Nefunguje hamburger menu nevím kde je problém*/
+
     /***** Mobile menu *****/
     $(".jq--nav-icon").click(function () {
-      //$(".nav-background").slideToggle(1000); stačí tohle zakomentářovat (vysvětlení viz discord)
       $(".mobile-nav-back").slideToggle(1000);
       $(".nav-bar ul").slideToggle(1000);
     });
 
     /***** Podmínky *****/
-    //pozor, měl jsi tu špatně odkazy na ikonku u menu - images/..., ve skutečnosti jsou v icons/...
     $(".jq--img-hamburger").click(function () {
       if ($(".jq--img-hamburger").attr("src") === "icons/hamburgerMenu.png") {
         $($(".jq--img-hamburger").attr("src", "icons/CrossMenu.png"));

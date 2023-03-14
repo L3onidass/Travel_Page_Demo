@@ -75,7 +75,6 @@ img {
 
 /***** section-header *****/
 .section-header {
-  /*obrazek se nezmenšuje pod 1067px. Když odstraním výšku box se zuží a nepřízpůsobí se velikosti obrázku v pozadí*/
   background-image: linear-gradient(
       to right,
       rgba(255, 0, 0, 0),
@@ -123,8 +122,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  /* border: 1px solid white; */
-  padding: 10px 15px;
+    padding: 10px 15px;
   text-align: center;
 }
 
@@ -151,8 +149,7 @@ nav ul li a:hover span {
 }
 
 .box .headline {
-  /* width: 1100px; */
-  height: min-content;
+    height: min-content;
 }
 
 h1 {
@@ -428,7 +425,7 @@ footer {
     border: 0;
   }
 
-  .button:hover, /*Nepřišel jsem na to jak vypnout tyto efekty. Zkoušel jsem display:none ale tlačítko nefungovalo správně  (problíkávalo). Pokud existuje nějaká jednoduší varianta než to vypisovat znovu */
+  .button:hover,
   .button:active,
   .photo:hover,
   .link:hover,
